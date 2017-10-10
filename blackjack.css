@@ -1,32 +1,608 @@
-#card {
+#ace-spades {
     position: fixed;
     left: 10%;
     top: 10%;
-    height: 25em;
-    width: 18em;
+    height: 7em;
+    width: 4em;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+#king-spades {
+    position: fixed;
+    left: 15%;
+    top: 10%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#queen-spades {
+    position: fixed;
+    left: 20%;
+    top: 10%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#jack-spades {
+    position: fixed;
+    left: 25%;
+    top: 10%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#ten-spades {
+    position: fixed;
+    left: 30%;
+    top: 10%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#nine-spades {
+    position: fixed;
+    left: 35%;
+    top: 10%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#eight-spades {
+    position: fixed;
+    left: 40%;
+    top: 10%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#seven-spades {
+    position: fixed;
+    left: 45%;
+    top: 10%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#six-spades {
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#five-spades {
+    position: fixed;
+    left: 55%;
+    top: 10%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#four-spades {
+    position: fixed;
+    left: 60%;
+    top: 10%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#three-spades {
+    position: fixed;
+    left: 65%;
+    top: 10%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#two-spades {
+    position: fixed;
+    left: 70%;
+    top: 10%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* HEARTS****************************************************************************************
+**/
+
+#ace-hearts {
+    position: fixed;
+    left: 10%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#king-hearts {
+    position: fixed;
+    left: 15%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#queen-hearts {
+    position: fixed;
+    left: 20%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#jack-hearts {
+    position: fixed;
+    left: 25%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#ten-hearts {
+    position: fixed;
+    left: 30%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nine-hearts {
+    position: fixed;
+    left: 35%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#eight-hearts {
+    position: fixed;
+    left: 40%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#seven-hearts {
+    position: fixed;
+    left: 45%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#six-hearts {
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#five-hearts {
+    position: fixed;
+    left: 55%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#four-hearts {
+    position: fixed;
+    left: 60%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#three-hearts {
+    position: fixed;
+    left: 65%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#two-hearts {
+    position: fixed;
+    left: 70%;
+    top: 30%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* DIAMONDS****************************************************************************************
+**/
+
+#ace-diamonds {
+    position: fixed;
+    left: 10%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#king-diamonds  {
+    position: fixed;
+    left: 15%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#queen-diamonds  {
+    position: fixed;
+    left: 20%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#jack-diamonds  {
+    position: fixed;
+    left: 25%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#ten-diamonds  {
+    position: fixed;
+    left: 30%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nine-diamonds  {
+    position: fixed;
+    left: 35%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#eight-diamonds  {
+    position: fixed;
+    left: 40%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#seven-diamonds  {
+    position: fixed;
+    left: 45%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#six-diamonds  {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#five-diamonds  {
+    position: fixed;
+    left: 55%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#four-diamonds  {
+    position: fixed;
+    left: 60%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#three-diamonds  {
+    position: fixed;
+    left: 65%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#two-diamonds  {
+    position: fixed;
+    left: 70%;
+    top: 50%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* CLUBS****************************************************************************************
+**/
+
+#ace-clubs {
+    position: fixed;
+    left: 10%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#king-clubs  {
+    position: fixed;
+    left: 15%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#queen-clubs  {
+    position: fixed;
+    left: 20%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#jack-clubs  {
+    position: fixed;
+    left: 25%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#ten-clubs  {
+    position: fixed;
+    left: 30%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nine-clubs  {
+    position: fixed;
+    left: 35%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#eight-clubs  {
+    position: fixed;
+    left: 40%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#seven-clubs  {
+    position: fixed;
+    left: 45%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#six-clubs  {
+    position: fixed;
+    left: 50%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#five-clubs  {
+    position: fixed;
+    left: 55%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#four-clubs  {
+    position: fixed;
+    left: 60%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#three-clubs  {
+    position: fixed;
+    left: 65%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#two-clubs  {
+    position: fixed;
+    left: 70%;
+    top: 70%;
+    height: 7em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
 
 .top-left {
     position: absolute;
     top: 0;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .bottom-right {
     position: absolute;
     bottom: 0;
     right: 0;
-    font-size: 2em;
+    font-size: 1em;
 }
 
-#spades img {
+#icon img {
     display: block;
     margin: auto;
     width: 50%;
-    margin-top: 35%;
+    margin-top: 50%;
 }
 
 
