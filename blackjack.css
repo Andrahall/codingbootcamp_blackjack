@@ -1,0 +1,32 @@
+#card {
+    position: fixed;
+    left: 10%;
+    top: 10%;
+    height: 25em;
+    width: 18em;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.top-left {
+    position: absolute;
+    top: 0;
+    font-size: 2em;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 2em;
+}
+
+#spades img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 35%;
+}
+
+
