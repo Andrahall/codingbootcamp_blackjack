@@ -1,65 +1,52 @@
+<?php
 
-<?php 
-/** 
-* Shuffles and displays cards in a deck 
-* @author:     Eric Anderson 
-* @filename:   deckofcards.php 
-*/ 
 
-// Create an array of face values 
-// and an array of card values 
-// then merge them together 
-$cards = array_merge(array("J", "Q", "K", "A"), range(2,10)); // 13 cards 
-
-// Shuffle the cards 
-shuffle($cards); 
-
-// Create an multidimentional array to hold the 4 suits 
-$suits = array( 
-    'Heart' => array(), 
-    'Spade' => array(), 
-    'Diamond' => array(), 
-    'Club' => array() 
-    ); 
-    
-// Add cards to their respective suits 
-for($i = 0; $i < count($suits); $i++) 
-{ 
-    for($j = 0; $j < count($cards); $j++) 
-    { 
-        $suits['Heart'][$j] = $cards[$j]."<span style=color:#FF0000;>&hearts;</span>"; 
-        $suits['Spade'][$j] = $cards[$j]."&spades;"; 
-        $suits['Diamond'][$j] = $cards[$j]."<span style=color:#FF0000;>&diams;</span>"; 
-        $suits['Club'][$j] = $cards[$j]."&clubs;"; 
-    } 
-} 
-
-// Create a deck 
-$deck = array(); 
-
-// Merge the suits into the empty deck array 
-$deck = array_merge($deck, $suits); 
-            
-// Display the deck to the screen 
-echo "<p><b>Deck of cards:</b></p>"; 
-foreach($deck as $k1 => $v1) 
-{ 
-    // Display suit name 
-    echo "<p>&emsp;$k1's<br />&emsp;{<br />&emsp;&emsp;"; 
-    $acc = 0; 
-    
-    // Display card value 
-    foreach($v1 as $k2 => $v2) 
-    { 
-        echo "$v2&nbsp"; 
-        $acc++; 
-        
-        if ($acc == 4) 
-        { 
-            echo "<br />&emsp;&emsp;"; 
-            $acc = 0; 
-        } 
-    } 
-    echo "<br />&emsp;}</p>"; 
-} 
-?>
+class Deck
+{
+    /**
+	 * Builds a deck of cards.
+	 *
+	 * @return array
+	 */
+	public static function cards()
+	{
+		$values = array('2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A');
+		$suits  = array('S', 'H', 'D', 'C');
+		
+		$cards = array();
+		foreach ($suits as $suit) {
+			foreach ($values as $value) {
+				$cards[] = $value . $suit;
+			}
+		}
+		
+		return $cards;
+	}
+	
+	/**
+	 * Shuffles an array of cards.
+	 *
+	 * @param array $cards The array of cards to shuffle.
+	 *
+	 * @return array
+	 */
+	public static function shuffle(array $cards)
+	{
+		$total_cards = count($cards);
+		
+		foreach ($cards as $index => $card) {
+			// Pick a random second card.
+			$card2_index = mt_rand(1, $total_cards) - 1;
+			$card2 = $cards[$card2_index];
+			
+			// Swap the positions of the two cards.
+			$cards[$index] = $card2;
+			$cards[$card2_index] = $card;
+		}
+		
+		return $cards;
+	}
+}
+$cards = Deck::cards();
+echo "Cards: " . implode(', ', $cards);
+echo "<br /><br />Shuffled Cards: " . implode(', ', Deck::shuffle($cards));
