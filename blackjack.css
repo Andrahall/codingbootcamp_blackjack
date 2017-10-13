@@ -12,34 +12,38 @@
     border: 1px solid black;
     border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 0;
    
 }
 
 #king-spades {
     position: fixed;
-    left: 15%;
+    left: 10.5%;
     top: 10%;
     height: 7em;
     width: 4em;
     border: 1px solid black;
     border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+
 }
 
 #queen-spades {
     position: fixed;
-    left: 20%;
+    left: 11%;
     top: 10%;
     height: 7em;
     width: 4em;
     border: 1px solid black;
     border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 2;
 }
 
 #jack-spades {
     position: fixed;
-    left: 25%;
+    left: 11.5%;
     top: 10%;
     height: 7em;
     width: 4em;
