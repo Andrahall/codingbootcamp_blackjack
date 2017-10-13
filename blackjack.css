@@ -4,17 +4,21 @@
 }
 
 .card {
-    position: relative;
     height: 7em;
     width: 4em;
     border: 1px solid black;
     border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #fff;
-   
+    z-index: 1;
+    display: inline-block;
 }
 
-
+#deck .card{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 .overlay  {
     position: fixed;
@@ -26,13 +30,8 @@
     border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url("images/backcard.jpg");
-    z-index: 2;
-
-    
-    
+    z-index: 2;  
 }
-
-
 
 
 .top-left {
@@ -56,9 +55,9 @@
 }
 
 
-.container {
+.table_board {
     
-        width: 1500px;
+        width: 1000px;
         height: 600px;
         background-color: green;
         border-bottom-left-radius: 800px;
@@ -68,5 +67,31 @@
     
         }
     
+
+#deck {
+    position: relative;
+}
+
+#player {
+    
+        width: 200px;
+        height: 100px;
+        background-color:#1b5e1c;
+        border: 1px solid black;
+        margin : auto;
+        z-index: -1;
+        }
+
+#dealer {
+    
+        width: 200px;
+        height: 100px;
+        display: block;
+        margin : auto;
+        z-index: 0;
+    
+        }
+    
+
 
 

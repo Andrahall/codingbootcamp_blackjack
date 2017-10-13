@@ -26,5 +26,7 @@ class card
         
                 <div class="bottom-right">'.$this->value.'</div>
         </div>';
+
+
     }
 }
